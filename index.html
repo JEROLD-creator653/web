@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jerold's Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+    <div class="min-h-screen flex flex-col items-center justify-center space-y-10 p-5">
+        <h1 id="title" class="text-4xl font-bold opacity-0">Jerold Christoper G</h1>
+        <section id="about" class="text-center opacity-0">
+            <h2 class="text-2xl font-semibold"></h2>
+            <p>AIML-Ethusiast.</p>
+        </section>
+        <section id="projects" class="text-center opacity-0">
+            <h2 class="text-2xl font-semibold">Projects</h2>
+            <ul class="space-y-4">
+                <li class="border p-4 rounded-md transition transform hover:scale-105">Project 1</li>
+                <li class="border p-4 rounded-md transition transform hover:scale-105">Project 2</li>
+            </ul>
+        </section>
+        <section id="contact" class="text-center opacity-0">
+            <h2 class="text-2xl font-semibold">Contact</h2>
+            <p>Email: sec24am004@sairamtap.edu.in</p>
+            <p>Phone: 9499912612</p>
+        <section id="Follow Me" class="text-center opacity-0"></section>
+            <h2 class="text-2xl font-semibold">Follow on</h2>
+            <li class="border p-4 rounded-md transition transform hover:scale-105">Linked In</li href="https://www.linkedin.com/in/jerold-christopher-g-992052327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+            <a href="https://github.com/JEROLD-creator653" target="_blank">GitHub</a>
+        </section>
+    </div>
+
+    <script>
+        gsap.to("#title", { opacity: 1, y: -20, duration: 1 });
+        gsap.to("#about", { opacity: 1, y: -10, duration: 1, delay: 0.5 });
+        gsap.to("#projects", { opacity: 1, y: -10, duration: 1, delay: 1 });
+        gsap.to("#contact", { opacity: 1, y: -10, duration: 1, delay: 1.5 });
+    </script>
+</body>
+</html>
+
+
+
